@@ -155,14 +155,14 @@ class _AppCalenderState extends State<AppCalender> {
                   focusedDay = focusDay;
                 });
               },
-              focusedDay: selectedDay,
+              focusedDay: selectedDay, 
               daysOfWeekStyle: DaysOfWeekStyle(
                   dowTextFormatter: (date, locale) =>
                       DateFormat("mmm").format(date)),
               calendarStyle: CalendarStyle(
                   selectedTextStyle: const TextStyle(color: Colors.black),
                   selectedDecoration: BoxDecoration(
-                    color: Colors.redAccent,
+                    color: Colors.limeAccent,
                     borderRadius: BorderRadius.circular(20.0),
                   ),
                   defaultDecoration: BoxDecoration(
